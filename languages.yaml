@@ -1,4 +1,29 @@
 en:
   PLUGIN_TYPOGRAPHY_HELPER:
-    TEXT_VARIABLE: Text Variable
-    TEXT_VARIABLE_HELP: Text to add to the top of a page
+    CHARS_HEADING: Characters to use
+    LABEL_DEFAULT: Default
+    HIGHLIGHTING_HEADING: Highlighting to use
+    LABEL_HIGHLIGHTS: Highlights for characters
+    LABEL_CHARS: Characters
+    LABEL_STYLES: Highlighting style
+    RED_BG: red background
+    BLUE_BG: blue background
+    GREY_BG: grey background
+    RED: red
+    BLUE: blue
+    GREY: grey
+
+de:
+  PLUGIN_TYPOGRAPHY_HELPER:
+    CHARS_HEADING: Zeichen zur Auswahl
+    LABEL_DEFAULT: Standard
+    HIGHLIGHTING_HEADING: Markierungen zur Auswahl
+    LABEL_HIGHLIGHTS: Markierung für bestimmte Zeichen
+    LABEL_CHARS: Zeichen
+    LABEL_STYLES: Markierungsstil
+    RED_BG: roter Hintergrund
+    BLUE_BG: blauer Hintergrund
+    GREY_BG: grauer Hintergrund
+    RED: rot
+    BLUE: blau
+    GREY: grau

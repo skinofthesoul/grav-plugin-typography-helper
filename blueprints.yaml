@@ -28,3 +28,29 @@ form:
         0: PLUGIN_ADMIN.DISABLED
       validate:
         type: bool
+    chars-selection:
+      type: section
+      title: PLUGIN_TYPOGRAPHY_HELPER.CHARS_HEADING
+    default:
+      type: array
+      label: PLUGIN_TYPOGRAPHY_HELPER.LABEL_DEFAULT
+    highlighting:
+      type: section
+      title: PLUGIN_TYPOGRAPHY_HELPER.HIGHLIGHTING_HEADING
+    styles:
+      type: list
+      label: PLUGIN_TYPOGRAPHY_HELPER.LABEL_HIGHLIGHTS
+      fields:
+        .chars:
+          type: text
+          label: PLUGIN_TYPOGRAPHY_HELPER.LABEL_CHARS
+        .style:
+          type: select
+          label: PLUGIN_TYPOGRAPHY_HELPER.LABEL_STYLES
+          options:
+            typography-bg-1: PLUGIN_TYPOGRAPHY_HELPER.RED_BG
+            typography-bg-2: PLUGIN_TYPOGRAPHY_HELPER.BLUE_BG
+            typography-bg-3: PLUGIN_TYPOGRAPHY_HELPER.GREY_BG
+            typography-fc-1: PLUGIN_TYPOGRAPHY_HELPER.RED
+            typography-fc-2: PLUGIN_TYPOGRAPHY_HELPER.BLUE
+            typography-fc-3: PLUGIN_TYPOGRAPHY_HELPER.GREY
