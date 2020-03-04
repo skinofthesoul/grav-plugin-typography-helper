@@ -1,0 +1,28 @@
+/* ----- just a few styles for highlighting in an editor field ----- */
+/* colours: editor blue #0090d9, editor red #ff392a, grey #a9a9a9a */
+.typography-bg-1 {
+  background-color: #0090d9;
+  color: #fff;
+}
+
+.typography-bg-2 {
+  background-color: #ff392a;
+  color: #fff;
+}
+
+.typography-bg-3 {
+  background-color: #a9a9a9a;
+  color: #fff;
+}
+
+.typography-fc-1 {
+  color: #0090d9;
+}
+
+.typography-fc-2 {
+  color: #ff392a;
+}
+
+.typography-bg-3 {
+  color: #a9a9a9a;
+}

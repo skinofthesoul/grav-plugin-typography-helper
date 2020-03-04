@@ -1,0 +1,30 @@
+name: Typography Helper
+version: 0.1.0
+description: Adds a selection of special characters to Markdown fields in Admin, and highlights non-breakable spaces and double spaces.
+icon: quote-left
+author:
+  name: Netzhexe.de
+  email: ak@netzhexe.de
+homepage: https://github.com/skinofthesoul/grav-plugin-typography-helper
+keywords: grav, plugin, admin, editor, markdown, special characters
+bugs: https://github.com/skinofthesoul/grav-plugin-typography-helper/issues
+docs: https://github.com/skinofthesoul/grav-plugin-typography-helper/blob/master/README.md
+license: MIT
+
+dependencies:
+  - { name: grav, version: '>=1.6.0' }
+  - { name: admin }
+
+form:
+  validation: loose
+  fields:
+    enabled:
+      type: toggle
+      label: PLUGIN_ADMIN.PLUGIN_STATUS
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
