@@ -1,3 +1,9 @@
+# v1.1
+##  12-03-2022
+
+1. [](#improved)
+    * updated the README and added two more default characters
+
 # v1.0
 ##  12-03-2022
 

@@ -1,1 +1,9 @@
 enabled: true
+default:
+  ­: 'weiches Trennzeichen'
+  „: 'öffnendes Anführungszeichen'
+  “: 'schließendes Anführungszeichen'
+  "\_": 'klebendes Leerzeichen'
+  –: Gedankenstrich
+  ’: Apostroph
+  …: 'horizontale Ellipse'
