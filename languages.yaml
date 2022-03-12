@@ -12,6 +12,11 @@ en:
     RED: red
     BLUE: blue
     GREY: grey
+    default:
+      „: 'German opening quote'
+      “: 'German closing quote'
+      –: 'en dash'
+      "\_": 'no-break space'
 
 de:
   PLUGIN_TYPOGRAPHY_HELPER:
@@ -27,3 +32,8 @@ de:
     RED: rot
     BLUE: blau
     GREY: grau
+    default:
+      „: 'öffnendes Anführungszeichen'
+      “: 'schließendes Anführungszeichen'
+      –: Gedankenstrich
+      "\_": 'klebendes Leerzeichen'

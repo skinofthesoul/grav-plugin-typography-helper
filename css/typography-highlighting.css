@@ -1,0 +1,19 @@
+/* no-break space */
+span[title*="ua0"].cm-invalidchar {
+  color: #aaa;
+  background-color: #aaa;
+}
+
+/* soft hyphen 
+span[title*="uad"].cm-invalidchar {
+  color: #ddd;
+  background-color: #ddd;
+}*/
+
+.cm-trailingspace {
+  background-color: hotpink;
+}
+
+#admin-main .grav-editor-toolbar ul a:hover, #admin-main .grav-editor-toolbar ul a:focus {
+  background-color: #ddd !important;
+}

@@ -1,6 +1,5 @@
 <?php
 namespace Grav\Plugin;
-
 use Grav\Common\Plugin;
 
 /**
@@ -22,18 +21,14 @@ class TypographyHelperPlugin extends Plugin
     public static function getSubscribedEvents()
     {
         return [
-            'onPluginsInitialized' => ['onPluginsInitialized', 0]
+            'onAdminTwigTemplatePaths' => ['onAdminTwigTemplatePaths', 0]
         ];
     }
 
-    /**
-     * Initialize the plugin
-     */
-    public function onPluginsInitialized()
+    public function onAdminTwigTemplatePaths($event)
     {
-        // only proceed if we are in the admin plugin
-        if ($this->isAdmin()) {
-            return;
-        }
+        $paths = $event['paths'];
+        $paths[] = __DIR__ . '/admin/themes/grav/templates';
+        $event['paths'] = $paths;
     }
 }
